@@ -4,11 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <script src="https://cdn.tailwindcss.com"></script>
         <title>Chiwi Academy</title>
-
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-        <link rel="shortcut icon" href="https://dsm01pap001files.storage.live.com/y4mj85YpWafDH5t1GfEXsRXEba-46rruBhQPZP8U28Gl8IsdH998WoRRH7CM-LbutvJmo_LNwPKkcD6jqyqXQMIuovQgTU7-IKxopv7c29CtAermokA6GRciA6Y4QrIcD7ZL7uF2EXFbR56Gu0TMIrSzYbEdQMNysUji5ToSYCz6NrHKMz9sSj9ST1sg5KFWr4n?width=308&height=256&cropmode=none">
+        <link rel="shortcut icon" href="https://laravel.com/img/logomark.min.svg">
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="h-screen bg-gray-300">
@@ -55,7 +53,9 @@
                 @endguest
             </ul>
         </nav>
+        
         @yield('content')
+
         <div class="space w-max">
         <footer class="footer fixed bottom-0 w-full mt-5 md:mt-0 bg-slate-600 p-3 text-white flex flex-wrap items-center justify-center gap-5">
         <div class="flex items-center gap-5">
