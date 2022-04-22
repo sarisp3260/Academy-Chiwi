@@ -7,7 +7,10 @@
         <title>Chiwi Academy</title>
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="shortcut icon" href="https://laravel.com/img/logomark.min.svg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body class="h-screen bg-gray-300">
 
@@ -56,8 +59,8 @@
         
         @yield('content')
 
-        <div class="space w-max">
-        <footer class="footer fixed bottom-0 w-full mt-5 md:mt-0 bg-slate-600 p-3 text-white flex flex-wrap items-center justify-center gap-5">
+        <div class="space">
+        <footer class="footer fixed bottom-0 right-0 w-full mt-5 md:mt-0 bg-slate-600 p-3 text-white flex flex-wrap items-center justify-center gap-5">
         <div class="flex items-center gap-5">
             <img class="w-16 bg-white p-1 rounded-lg" src="https://dsm01pap001files.storage.live.com/y4m4B-7iuyyEBb4izqOcWpbNVmgsBGYYpZiIx46pZ5hKwshsefzBtlynXLez0lBy6BzMrNWGKpCsaSKq8Eezsa-mqIeGUTGVqzd4zgf_QJkDyctZqNUUm9CfDwk7GrFyrAactXk2JqdHBKz0t7n13zhCgOUPfE0Yjzvt1scFmPj5uKZ9k38hkMMQhpsyB9jt3Gn?width=148&height=70&cropmode=none" alt="">
             <p class="font-bold text-center">Copyright © 2022 - All right reserved</p>
@@ -75,5 +78,9 @@
         </div>
         </footer>
         </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
